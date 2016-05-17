@@ -1,0 +1,33 @@
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+c:\users\alex\documents\visual studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\res\Untitled.png
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\GMap.NET.Core.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.MainForm.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.manifest
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.application
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe.manifest
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.application
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\res\Untitled.png
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.manifest
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.application
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\GMap.NET.Core.dll
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe.manifest
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.application
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\DB.sdf
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\DSS.MainForm.resources
+C:\Users\Администратор\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\DSS.Properties.Resources.resources
