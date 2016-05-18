@@ -4,35 +4,54 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-
-using System.Data.SqlClient;
+using System.Data.Common;
+using System.Data.SQLite;
 
 namespace DSS
 {
     class DBHelper
     {
+        public class SQLiteDBProvider
+        {
+            string baseName = DSS.Properties.Settings.Default.DBName;
+            public SQLiteDBProvider()
+            {
+                SQLiteConnection.CreateFile(baseName);
+                SQLiteFactory factory = (SQLiteFactory)DbProviderFactories.GetFactory("System.Data.SQLite");
+                using (SQLiteConnection connection = (SQLiteConnection)factory.CreateConnection())
+                {
+                    connection.ConnectionString = "Data Source = " + baseName;
+                    connection.Open();
+
+                    using (SQLiteCommand command = new SQLiteCommand(connection))
+                    {
+                        command.CommandText = DSS.Properties.Settings.Default.SQLiteCreateStatement;
+                        command.CommandType = CommandType.Text;
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            
+        }
+
         public static void AddMapImageToDB(String name, byte[] image, byte[] coords)
         {
             try
             {
-                DBDataSet.FieldImagesDataTable dt = new DBDataSet.FieldImagesDataTable();
-                DBDataSetTableAdapters.FieldImagesTableAdapter adapter = new DBDataSetTableAdapters.FieldImagesTableAdapter();
-                adapter.Fill(dt);
-                DBDataSet.FieldImagesRow row = (DBDataSet.FieldImagesRow)dt.NewRow();
-                row.image_name = name;
-                row.data = image;
-                row.map_coordinates = coords;
+                SQLiteDBProvider db = new SQLiteDBProvider();
 
-                dt.Rows.Add(row);
-                adapter.Update(dt);
-                adapter.Dispose();
-                dt.Dispose();
+
             }
             catch (Exception e )
             {
                 throw new Exception(e.Message);
             }
             
+        }
+
+        public static HashSet<CoordHelper.MapPointer> LoadMapPointers()
+        {
+            throw new NotImplementedException();
         }
     }
 }

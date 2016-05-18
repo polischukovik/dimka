@@ -74,5 +74,12 @@ namespace DSS
                 return new MapCoordinates(lat, lon);
             }
         }
+
+
+        public class MapPointer
+        {
+            int id, name;
+            CoordHelper.MapCoordinates coordinates;
+        }
     }
 }

@@ -12,9 +12,13 @@ namespace DSS
 {
     public partial class MainForm : Form
     {
+        private Boolean showImageLayer = false;
+
         public MainForm()
         {
             InitializeComponent();
+            DBHelper.SQLiteDBProvider db = new DBHelper.SQLiteDBProvider();
+            Application.Exit();
         }
 
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
@@ -64,7 +68,42 @@ namespace DSS
 
         private void button4_Click(object sender, EventArgs e)
         {
+
             MessageBox.Show(MapTools.LoadMapPhotosFromFolder());
+        }
+
+        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (System.Windows.Forms.Application.MessageLoop)
+            {
+                // WinForms app
+                System.Windows.Forms.Application.Exit();
+            }
+            else
+            {
+                // Console app
+                System.Environment.Exit(1);
+            }
+        }
+
+        private void gmap_Paint(object sender, PaintEventArgs e)
+        {
+            if (showImageLayer)
+            {
+                e.Graphics.DrawImage(DSS.Properties.Resources.photo_map, 50, 50, 50, 50);
+            }
+        }
+
+        private void tabControl1_Selected(object sender, TabControlEventArgs e)
+        {
+            showImageLayer = true;
+            this.gmap.Invalidate();
+        }
+
+        private void tabControl1_Deselected(object sender, TabControlEventArgs e)
+        {
+            showImageLayer = false;
+            this.gmap.Invalidate();
         }
     }
 }

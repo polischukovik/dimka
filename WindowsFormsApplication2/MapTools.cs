@@ -8,6 +8,7 @@ using System.IO;
 using System.Drawing;
 using System.Drawing.Imaging;
 
+
 namespace DSS
 {
     class MapTools
@@ -19,6 +20,7 @@ namespace DSS
             DialogResult result = fbd.ShowDialog();
             string[] img_files = new string[0];
             int i = 0, failed = 0, saved = 0;
+            
 
             if (!string.IsNullOrWhiteSpace(fbd.SelectedPath))
             {
@@ -40,8 +42,8 @@ namespace DSS
                     }
                     catch (Exception e)
                     {
-                        throw new Exception(e.Message);
                         failed++;
+                        throw new Exception(e.Message);                        
                     }                    
                     i++;
                 }
@@ -115,6 +117,11 @@ namespace DSS
             {
                 throw new ArgumentException("Cannot get property Longitude");
             }
+        }
+
+        public static void DrawPhotoCanvas(GMap.NET.WindowsForms.GMapControl map)
+        {
+            
         }
     }
 }

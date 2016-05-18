@@ -24,7 +24,7 @@
 
         Если вы хотите использовать виртуализацию файлов и реестра для обратной
              совместимости, удалите узел requestedExecutionLevel.
- -->
+    -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
     </security>
@@ -42,8 +42,27 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5062304">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ME/k2DGnnEXXRv8PbQPIB/oznXx46EIYOYjb9nQ2US8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="580768">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iU2DBXuEJ4l5e2Up1a2QeNBvmdWHbhB91cwMpi/p8Nc=</dsig:DigestValue>
+      </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -71,38 +90,41 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\System.Data.SqlServerCe.resources.dll" size="59616">
-      <assemblyIdentity name="System.Data.SqlServerCe.resources" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="ru" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="301056">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.101.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qvDyQY2cAY3QLPqjUvPMVLpgHR7Vb0QKA8dB1U+R53s=</dsig:DigestValue>
+        <dsig:DigestValue>IDz/tu1Z72OHSr5IyKm6zjkcb3MhvT5k6DKkCX0qhJw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication2.exe" size="48128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SqlServerCe.dll" size="470240">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fzAjKmnGW7OJ3tIr3/LRns9mJFYblHB1es3oCxTi/k0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication2.exe" size="28592">
       <assemblyIdentity name="WindowsFormsApplication2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1h6OUin+6P36oaDhLLdOQfG3J6VWSTOFT8ujmJHGuxE=</dsig:DigestValue>
+        <dsig:DigestValue>etfCEsvVceLVaYpVBE+0Zj5iKEvnkNS0EWAwJoSWUoM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="DB.sdf" size="86016" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>186/LdI2vNxtpDM6lbjza91VTpO1ZqD4KwhfqJhlSfg=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="lib\GMap.NET.Core.dll" size="2444288">
     <hash>
       <dsig:Transforms>
@@ -121,15 +143,6 @@
       <dsig:DigestValue>OR+5lPpq2pKtS0bmJ6kp2xLb01qW5E+RnaEXYI4WWMQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="res\Untitled.png" size="754587">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>5tO15LjIfEm38GtkHi6lTppEeM5Fl4SlBCKIJLxvTi8=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Untitled.png" size="754587">
     <hash>
       <dsig:Transforms>
@@ -139,13 +152,13 @@
       <dsig:DigestValue>5tO15LjIfEm38GtkHi6lTppEeM5Fl4SlBCKIJLxvTi8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WindowsFormsApplication2.exe.config" size="1563">
+  <file name="WindowsFormsApplication2.exe.config" size="4011">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>YCRJwOdd0aM8Qe1nnVcT33LCGhti8cDQ1b6xXxzvjqk=</dsig:DigestValue>
+      <dsig:DigestValue>xLk1WBVSczjv5T282Fnb4RJG7zaYruZFpOEl3lad/eU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
